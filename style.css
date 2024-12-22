@@ -238,6 +238,7 @@ align-items: center;
 background-color: white;
 width: 500px;
 height: 600px;
+transition: 2s;
 }
 
 .main9 .task9:hover{
@@ -265,6 +266,8 @@ margin-bottom: 30px;
 width: 280px;
 background-color: white;
 color: blue;
+transition: 2s;
+
 }
 .main9 button:hover{
     background-color: blue;
