@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main1 .task1{
+width: 100px;
+height: 100px;
+background-color: red;
+animation:square 2s 4s;
+}
+
+@keyframes square{
+0%{
+
+background-color: aquamarine;
+
+}
+
+50%{
+background-color: brown;
+
+}
+
+100%{
+background-color: darkturquoise;
+
+}
+}
+/* ############################# */
+/* task 2 */
+.main1{
+display: grid;
+grid-template-columns: repeat(2,150px);
+gap: 20px;
+
+}
+
+.task2{
+    display: grid;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+width: 150px;
+height: 150px;
+background-color: rgb(187, 185, 185);
+border-radius: 5px;
+}
+
+.task21{
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: #2db34a;
+    transform:rotate(80deg) ;
+    display: grid;
+    justify-content: center;
+justify-items: center;
+align-items: center;
+    }
+    
+    .task213{
+        border-radius: 5px;
+        width: 100px;
+        height: 100px;
+        background-color: #2db34a;
+        transform:rotate(160deg) ;
+       display: grid;
+justify-content: center;
+justify-items: center;
+align-items: center;
+        }
+
+        /* ######################### */
+        /* task 3 */
+
+
+
+        .task33{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            animation:square1 4s backwards ;
+            
+            
+            
+            }
+            
+            @keyframes square1{
+            0%{
+            
+            background-color: red;
+            
+            }
+            
+            50%{
+            background-color: green;
+            
+            }
+            
+            75%{
+            background-color: yellow;
+            
+            }
+            100%{
+                background-color: blue;
+            }
+
+        }
+         /* ######################### */
+        /* task 4 */
+
+.main4 img{
+height: 100px;
+width: 150px;
+transform: translate(600px, 0);
+
+}
+
+
+        /* ######################### */
+        /* task 5 */
+        .main5 img{
+            width: 350px;
+            margin: 200px;
+                    }
+        .main5 img{
+width: 350px;
+
+        }
+
+.main5 .opacity{
+opacity: .25;
+position: absolute;
+}
+
+.main5 .rotate{
+transform:rotate(-30deg);
+
+
+}
+
+     /* ######################### */
+        /* task 6 */
+
+        .main6 img{
+            width: 350px;
+            margin: 200px;
+                    }
+
+        .main6 .opacity{
+            opacity: .25;
+            position: absolute;
+            }
+            
+            .main6 .rotate2{
+                transform-origin: right bottom;
+                transform:rotate(30deg);
+                
+                }
+                
+
+     /* ######################### */
+        /* task 7 */
+
+.main7{
+    height: 700px;
+transform: translate(50% , 50%);
+}
+.main7 .task7{
+background-color: blue;
+color: white;
+width: 90px;
+height: 30px;
+border-radius: 5px;
+transition: 2s;
+}
+.task7:hover{
+scale: 2;
+}
+
+  /* ######################### */
+        /* task 8 */
+
+
+       .main8 .task8{
+        border-radius: 10px;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation:square2 4s backwards ;
+            }
+            
+            @keyframes square2{
+            0%{
+            background-color: red;
+            translate: 0 0;
+            }
+            25%{
+               background-color: yellow;
+               translate: 200px 0;
+
+
+            }
+            
+            50%{
+            background-color: blue;
+            translate: 200px 200px;
+            }
+            75%{
+        background-color: green;
+
+        translate: 0 200px;
+
+            }
+            
+            100%{
+            background-color: red;
+            translate: 0 0;
+
+            }
+        }
+  /* ######################### */
+        /* task 9 */
+.main9{
+    height: 1000px;
+background-color: gainsboro;
+display: grid;
+justify-content: center;
+align-items: center;
+
+}
+
+.main9 .task9{
+    
+    justify-content: center;
+    display: grid;
+background-color: white;
+width: 500px;
+height: 600px;
+}
+
+.main9 .task9:hover{
+transform: scale(1.25);
+
+}
+
+.main9 img{
+    width: 20px;
+}
+.main9 h1{
+    padding-top: 30px;
+}
+.main9 p{
+opacity: 50%;
+}
+.main9 .task91{
+    height: 60px;
+text-align: center;
+font-size: 50px;
+background-color: aqua;
+}
+.main9 button{
+margin-bottom: 30px;
+width: 280px;
+background-color: white;
+color: blue;
+}
+.main9 button:hover{
+    background-color: blue;
+    color: white;
+
+}
+
+
+
+
+ /* ######################### */
+        /* task 10 */
+
+.main10{
+transform: translate(50%,50%);
+height: 500px;
+display: flex;
+}
+
+.main10 .task10{
+    
+width: 180px;
+height: 50px;
+border: black solid 10px;
+}
+
+.main10 .task10 .task101{
+    width: 100%;
+    height: 100%;
+animation:charger 5s linear 2s forwards;
+
+}
+
+@keyframes charger{
+
+0%{
+background-color: red;
+
+width: 20px;
+}
+20%{
+background-color: red;
+width: 40px;
+}
+40%{
+background-color: orange;
+width: 70px;
+}
+60%{
+background-color: orange;
+width: 100px;
+}
+
+80%{
+    background-color: #2db34a;
+    width: 130px;
+}
+
+100%{
+    background-color: green;
+    width: 100%;
+}
+}
+
+.main10 .task102{
+width: 10px;
+height: 25px;
+background-color: black;
+margin-top: 12.5px;
+}
+
+
+
+
+
+
+
